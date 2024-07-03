@@ -1,0 +1,98 @@
+*{margin:0;
+padding:0;
+font-family:"Times New Roman", Times, serif;
+box-sizing:border-box;}
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgba(3, 6, 22, 1);
+}
+h1{
+    background-color:rgba(217, 217, 217, 1);
+    text-align:center;
+    font-size:40px;
+    padding:10px;
+    margin:0px;
+    color:black;
+    top:0;
+    position:fixed;
+    width:100%;
+    }
+    ul{
+        list-style-type:none;
+        padding:0px;
+        margin:0px;
+        position:fixed;
+        width:100%;
+        background-color:rgb(240, 240, 240);}
+    li{float:left;}
+    li a{
+        color:black;
+        padding:14px 16px;
+        display:block;
+        text-align:center:
+        background-color:rgb(240, 240, 240);}
+  .column{
+        float:left;
+        margin:0px;
+        padding:20px;}
+  .column.side{width:25%;
+        color:black;
+        background-color:rgba(217, 217, 217, 1);
+        height:auto;
+        }
+  .column.main{
+        background-color:rgba(3, 6, 22, 1);
+        color:white;
+        width:75%;
+        }
+  .row:after{
+        content:"";
+        display:table;
+        clear:both;}
+      /* Section Styles */
+.page {
+  flex: 1; /* Make sections take up equal space */
+  text-align: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+.page:first-child { /* Style the first section (home) differently */
+  background-color: rgba(3, 6, 22, 1);
+color:white;
+}
+
+/* Scroll Button Styles */
+.scroll-down {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black; /* Green */
+  color: white;
+  border: none;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.about{
+padding:30px;
+margin:auto;
+border: 10px solid black;
+width:500px;
+float:center;}
+.contact{
+padding:30px;
+margin:auto;
+border: 10px solid black;
+width:500px;
+float:center;}
+.education{
+padding:30px;
+margin:auto;
+border: 10px solid black;
+width:500px;
+float:center;}
+.skills{
+padding:30px;
+margin:auto;
+border: 10px solid grey;
+width:500px;
+float:center;}
